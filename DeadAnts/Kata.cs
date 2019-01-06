@@ -10,7 +10,7 @@ namespace DeadAnts
     {
         public static int DeadAntCount(string ants)
         {
-            int deadAntNum = 0;
+            int[] deadAntNum = { 0, 0, 0 };
             string deadAnts;
             if (ants == null) return 0;
             string[] antGroups = ants.Split(new char[] { ' ', '.' });
@@ -21,12 +21,16 @@ namespace DeadAnts
                 {
                     foreach (char antHead in deadAnts)
                     {
-                        if (antHead == 'a') deadAntNum++;
+                        if (antHead == 'a') deadAntNum[0]++;
+                        if (antHead == 'n') deadAntNum[1]++;
+                        if (antHead == 't') deadAntNum[2]++;
                     }
                 }
             }
-            return deadAntNum;
-            return 0;
+            int max = deadAntNum[0];
+            if (max < deadAntNum[1]) max = deadAntNum[1];
+            if (max < deadAntNum[2]) max = deadAntNum[2];
+            return max;
         }
     }
 }
