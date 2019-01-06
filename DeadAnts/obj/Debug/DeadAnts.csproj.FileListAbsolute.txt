@@ -1,0 +1,6 @@
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\bin\Debug\DeadAnts.dll
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\bin\Debug\DeadAnts.pdb
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\obj\Debug\DeadAnts.csprojAssemblyReference.cache
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\obj\Debug\DeadAnts.csproj.CoreCompileInputs.cache
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\obj\Debug\DeadAnts.dll
+C:\Users\k.ko29\Documents\kata\DeadAnts\DeadAnts\obj\Debug\DeadAnts.pdb
